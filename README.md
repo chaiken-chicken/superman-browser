@@ -1,20 +1,9 @@
 # SUPERMAN Browser
 
-SUPERMAN Browser is a self-hosted browser-proxy project with custom branding,
-icons, a new look and a separate GitHub repository. It uses the open-source
-InvisiProxy LTS proxy engine and retains upstream licenses and copyright notices.
-
-## Start in GitHub Codespaces
-
-Use the latest compatible Node.js version (upstream currently recommends Node 26.x).
-Then run:
-
-```bash
-pnpm run fresh-install
-pnpm start
-```
-
-From Codespaces **Ports**, copy the forwarded app URL to **SUPERMAN → Proxy → I'm Hosting**.
+Click the green code button when you scroll up then go to codespaces and create 
+It-s gonna take a bit then paste this into the terminal 
+pnpm run fresh-install && pnpm start
+then go to ports and port 8080 and press the little globe 
 
 ## License, source and attribution
 
