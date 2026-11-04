@@ -1,0 +1,10 @@
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Allow: /
+Allow: /assets
+Allow: /assets/ico
+Disallow: /github
+Disallow: /scram
+Disallow: /uv
+ 
+Sitemap: https://invisiproxy.com/sitemap.xml
