@@ -36,7 +36,7 @@ export default function Challenge() {
 				</div>
 				<section class="challenge-notice" data-notice hidden>
 					<h2 class="challenge-title">
-						InvisiProxy LTS (PLEASE READ)
+						SUPERMAN Browser (PLEASE READ)
 					</h2>
 					<p class="challenge-text">
 						In the case of a "500 Internal Error/403 Forbidden"

@@ -118,7 +118,7 @@ export function Head() {
 		<>
 			<title>
 				{titled(
-					`InvisiProxy LTS | ${translate('header.apps.mobileLabel')}`,
+					`SUPERMAN Browser | ${translate('header.apps.mobileLabel')}`,
 					translate('header.apps.label')
 				)}
 			</title>

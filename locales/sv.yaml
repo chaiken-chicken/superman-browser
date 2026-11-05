@@ -78,8 +78,8 @@ language:
     - Wisp
     - Tor
     - Onion
-    - Ultraviolet
-    - Scramjet
+    - SUPERMAN Classic Engine
+    - SUPERMAN Engine
     - Rammerhead
 
 home:
@@ -133,7 +133,7 @@ home:
       SUPERMAN levererar exceptionell prestanda. Vi har många funktioner som
       stöd för reCAPTCHA/Botguard, Tor-nätverket, SOCKS5-proxykedjor,
       anpassningsbar svartlista, skydd mot läckor, dold historik och omfattande
-      kompatibilitet med de flesta sidor med hjälp av Scramjet + Wisp
+      kompatibilitet med de flesta sidor med hjälp av SUPERMAN Engine + Wisp
       (kombinerat med Libcurl-överföring). Andra populära tjänster som
       CroxyProxy eller Proxium gör oftast bara halva jobbet med att skriva om
       tillgångar och läcker förfrågningar, vilket är ett integritetsproblem.
@@ -144,7 +144,7 @@ home:
     title: SUPERMAN är praktisk.
     body: >-
       Tack vare källrandomisering och projekt som Proxy Transports, Wisp och
-      Scramjet ger det här projektet dig en sömlös upplevelse som kringgår
+      SUPERMAN Engine ger det här projektet dig en sömlös upplevelse som kringgår
       webbfilter, statliga filter och nätverksfilter. Projektet fungerar mot
       filter som används i Kina (GFW - Great Firewall of China), Ryssland och
       fler länder <strong>utan att du behöver ladda ner någon
@@ -194,7 +194,7 @@ home:
       Gå till sidan <browse>Surfa</browse> och välj en av proxyerna vi har!
       Skriv sedan in sidan du vill komma åt i sökrutan. Varje webbproxy har sin
       egen nivå av effektivitet, hastighet och säkerhet. Vi rekommenderar
-      Scramjet.<br/><br/>Exempelsida att avblockera:
+      SUPERMAN Engine.<br/><br/>Exempelsida att avblockera:
       <code>https://youtube.com</code>
     imageAlt: Sköldikon
 
@@ -394,10 +394,10 @@ footer:
   vite: Vite - Nästa generations frontendverktyg.
   wispurr: Högpresterande och funktionsrik Wisp v1/v2-server skriven i Golang.
   nord: Nord Theme - En arktisk, nordiskt blåaktig färgpalett.
-  scramjet: Scramjet - Scramjet är en mångsidig webbproxy gjord för att kringgå internetcensur.
+  scramjet: SUPERMAN Engine - SUPERMAN Engine är en mångsidig webbproxy gjord för att kringgå internetcensur.
   wisp: Wisp - Wisp är ett resurssnålt protokoll som är enkelt att implementera, för att proxya flera TCP/UDP-sockets över en enda websocket.
   wispLabel: Wispprotokollet
-  proxyTransports: Proxy Transports - Gränssnittet för överföringsmetoder som Scramjet använder.
+  proxyTransports: Proxy Transports - Gränssnittet för överföringsmetoder som SUPERMAN Engine använder.
   merp: Merp - Avancerad obfuskeringsmodul
   merpLabel: Merp-obfuskering
   githubTitle: SUPERMAN GitHub-repository
@@ -512,7 +512,7 @@ faq:
       Jag får ett fel som liknar: "'cdn.example.com' cannot be reached."
     answer: >-
       Ladda om sidan. Om det inte funkar första gången, använd webbläsarens
-      tillbaka-knapp eller gå tillbaka till Scramjet-sidan och försök igen.
+      tillbaka-knapp eller gå tillbaka till SUPERMAN Engine-sidan och försök igen.
   blank:
     question: Varför laddar min sida bara delvis eller är helt tom?
     answer: >-
@@ -523,7 +523,7 @@ faq:
       stödjer sidan.
   idb:
     question: >-
-      Jag får ett fel som har med IDB-databasen att göra (problem i Scramjet V1)
+      Jag får ett fel som har med IDB-databasen att göra (problem i SUPERMAN Engine V1)
     answer: >-
       Det här brukar hända när vi uppdaterar projektet. Klicka bara på
       (i)-ikonen uppe till vänster i din webbläsare (eller låssymbolen) och välj
@@ -559,8 +559,8 @@ faq:
     question: >-
       Varför fungerar inte sidan jag är på korrekt, eller får CAPTCHA-fel?
     answer: >-
-      CAPTCHA-stöd fungerar med Scramjet men kräver några försök. Anledningen
-      är att Scramjet ofta helt enkelt är för snabb, och CAPTCHAs är av naturen
+      CAPTCHA-stöd fungerar med SUPERMAN Engine men kräver några försök. Anledningen
+      är att SUPERMAN Engine ofta helt enkelt är för snabb, och CAPTCHAs är av naturen
       opålitliga. Lösningen är att fortsätta lösa CAPTCHAn tills det funkar.
       Försök att inte gå för snabbt fram.
   youtubeBlank:
@@ -710,7 +710,7 @@ privacy:
       ordentligt utan cookies, localStorage eller IndexedDB. Inga cookies,
       IndexedDB, localStorage eller sessionStorage används för analys av
       SUPERMAN; endast följande funktioner använder dem för att lagra
-      beständig data lokalt: Scramjet (cachning av proxyade tillgångar,
+      beständig data lokalt: SUPERMAN Engine (cachning av proxyade tillgångar,
       sessionstillstånd m.m.), flikar, bokmärken, autokomplettering (proxyad),
       inställningsmenyn: Tab Cloak, förinställda ikoner, överföringsmetoder,
       sökmotorer, teman, språk, fönstertyp, Tor-routing, byte av region, dölj
@@ -909,7 +909,7 @@ docs:
       Se också till att du använder <code>Node 26.x</code>. <code>git</code> och
       <code>curl</code> är nödvändiga beroenden:
     builtIn: >-
-      Den här sidan hostas lokalt med <scramjet>Scramjet</scramjet>,
+      Den här sidan hostas lokalt med <scramjet>SUPERMAN Engine</scramjet>,
       <wisp>Wisp</wisp>, <merp>Merp-obfuskering</merp>,
       <epoxy>EpoxyTransport</epoxy> och <libcurl>LibcurlTransport</libcurl>
       inbyggda.
@@ -976,7 +976,7 @@ docs:
         startar.
       randomizeIdentifiers: >-
         Aktivera experimentell randomisering av proxyns globala variabler för
-        Ultraviolet. Det minskar risken att UV upptäcks av tilläggsbaserade
+        SUPERMAN Classic Engine. Det minskar risken att UV upptäcks av tilläggsbaserade
         filter.
       production: >-
         Använd en förkonfigurerad produktionsuppsättning för serverhosting.
@@ -1045,7 +1045,7 @@ docs:
     customWisp: Användare kan också ange sin egen Wisp-server i Proxyinställningar.
     customProxy: >-
       Om du vill använda en egen HTTP/HTTPS/SOCKS5-proxy för att routa trafik
-      för Scramjet hanteras det på servern i
+      för SUPERMAN Engine hanteras det på servern i
       <code>./src/server/wisp.ts</code>.
   proxy:
     title: Proxykonfiguration
@@ -1057,11 +1057,11 @@ docs:
       mer.
     options:
       stockSW: >-
-        Standardkonfigurationsfilen för service worker i Ultraviolet. I
+        Standardkonfigurationsfilen för service worker i SUPERMAN Classic Engine. I
         SUPERMAN är annonsblockering dock aktiverad automatiskt, så den här
         används inte som standard.
       blacklistSW: >-
-        En modifierad version av Ultraviolet som gör det möjligt att svartlista
+        En modifierad version av SUPERMAN Classic Engine som gör det möjligt att svartlista
         domäner och blockera annonser.
       proxyUrl: >-
         Anger en URL med protokollet SOCKS5/HTTPS/HTTP, som standard Tors
@@ -1076,7 +1076,7 @@ docs:
         fortfarande byta via inställningsmenyn)
       ScramjetController: >-
         Den här konstruktorn låter dig dynamiskt byta prefix som används för
-        Scramjet och ange filplatser. Observera att du kan behöva redigera
+        SUPERMAN Engine och ange filplatser. Observera att du kan behöva redigera
         <code>./views/scram/scramjet.sw</code> när du byter filnamn.
   navigation:
     title: Konfiguration av klientnavigering
@@ -1119,7 +1119,7 @@ docs:
       pages: används för sidans HTML.
       assets: används för att lagra olika CSS-, JS-, bild- och JSON-filer.
       scram: >-
-        innehåller den lokala Scramjet-implementationen. Vissa filer skrivs över
+        innehåller den lokala SUPERMAN Engine-implementationen. Vissa filer skrivs över
         av node-modulen.
       uv: innehåller UV-implementationen.
     scripts: Skript i <code>/views/assets/js/</code>
@@ -1133,7 +1133,7 @@ docs:
         extrafunktioner.
       loader: används som tillgång för DOM-maskering.
       registerSw: >-
-        skapar och hanterar service workers som får Ultraviolet att fungera, och
+        skapar och hanterar service workers som får SUPERMAN Classic Engine att fungera, och
         använder även bare transport.
   future:
     title: Framtida tillägg
@@ -1163,8 +1163,8 @@ docs:
       <code>a.example.com</code> används för andra instanser som Libreddit eller
       Invidious beroende på vad sidans administratör behöver.
     local: >-
-      Som nämnts tidigare hostas SUPERMAN lokalt med Scramjet och
-      Ultraviolet direkt från start. Inga externa instanser behövs.
+      Som nämnts tidigare hostas SUPERMAN lokalt med SUPERMAN Engine och
+      SUPERMAN Classic Engine direkt från start. Inga externa instanser behövs.
   domain:
     title: Domänsteg
     porkbun: >-
@@ -1223,7 +1223,7 @@ docs:
       Varför fungerar inte sidan jag är på korrekt, eller får CAPTCHA-fel?
     captchaBody: >-
       Tyvärr är CAPTCHA-stödet opålitligt på alla nuvarande proxyer. Det stöds
-      främst av Scramjet. Därför kanske vissa sidor inte fungerar med någon av
+      främst av SUPERMAN Engine. Därför kanske vissa sidor inte fungerar med någon av
       proxyerna.
     badGateway: Jag får 502-fel. Vad gör jag?
     badGatewayBody: >-
@@ -1267,7 +1267,7 @@ docs:
       behåller det på GitHub. Jag skriver det här eftersom jag fortfarande
       tvivlar på beslutet. Men tills vidare, kolla in andra proxysidor som
       Incognito (Duce uppdaterar VÄLDIGT ofta och är skaparen/utvecklaren av
-      Ultraviolet, så ge honom lite kärlek) :yayy_hopi:
+      SUPERMAN Classic Engine, så ge honom lite kärlek) :yayy_hopi:
     patreon: >-
       Kolla in hans Patreon också! Nuvarande HU-patrons debiteras inte nästa
       månad och HU:s Patreon arkiveras, så gå över till Duces Patreon så att han
@@ -1281,7 +1281,7 @@ docs:
     website: Besök den officiella hemsidan för mer information och tack.
     sources: 'Källor för webbproxyer:'
     sourcesBody: >-
-      Projektet använder för närvarande Scramjet och Ultraviolet som
+      Projektet använder för närvarande SUPERMAN Engine och SUPERMAN Classic Engine som
       webbproxyer enligt Wispprotokollet. Bare-Mux används för att byta mellan
       överföringssystem som används med Wisp. De inkluderade
       överföringssystemen är EpoxyTransport och libcurl-transport.
@@ -1376,11 +1376,11 @@ error:
   home: Tillbaka till startsidan
 
 scramjet:
-  pageTitle: Scramjet-proxy
+  pageTitle: SUPERMAN Engine-proxy
   description: >-
     Den nya, mycket innovativa proxyn från Mercury Workshop som använder
     tekniker som service workers och sofistikerade omskrivningsmetoder med
-    CAPTCHA-stöd. Scramjet fokuserar på hastighet med YouTube, now.gg, Spotify,
+    CAPTCHA-stöd. SUPERMAN Engine fokuserar på hastighet med YouTube, now.gg, Spotify,
     CoolMathGames och olika .io-sidor!
   searchPlaceholder: Skriv in en URL här eller sök efter något!
   search: SÖK
@@ -1400,14 +1400,14 @@ frame:
   noBookmarks: Inga bokmärken än. Använd stjärnan i adressfältet för att spara sidan du är på.
 
 scramjetError:
-  title: Nätverksfel i Scramjet
+  title: Nätverksfel i SUPERMAN Engine
   failed: 'Kunde inte ladda:'
   reload: Att ladda om sidan kan lösa problemet.
   refresh: Uppdatera sidan
   copy: Kopiera
   try: 'Testa:'
   tips:
-    reload: Ladda om sidan; det här är ett känt problem med Scramjet
+    reload: Ladda om sidan; det här är ett känt problem med SUPERMAN Engine
     idb: >-
       Vid fel i IDB-databasen, rensa din webbplatsdata genom att klicka på
       låsikonen i adressfältet, välja "Webbplatsinställningar" eller

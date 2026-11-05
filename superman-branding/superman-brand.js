@@ -4,6 +4,8 @@
     ? text.replace(/InvisiProxy\s*LTS/gi,'SUPERMAN BROWSER')
           .replace(/InvisiProxy/gi,'SUPERMAN')
           .replace(/Holy Unblocker\s*LTS/gi,'SUPERMAN BROWSER')
+          .replace(/Scramjet/gi,'SUPERMAN Engine')
+          .replace(/Ultraviolet/gi,'SUPERMAN Classic Engine')
     : text;
   const apply = root => {
     try {

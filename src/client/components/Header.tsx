@@ -18,7 +18,7 @@ export default function Header() {
 					title={translate('header.homeTitle')}
 				>
 					{' '}
-					InvisiProxy v8.3.x{' '}
+					SUPERMAN Browser{' '}
 				</a>
 			</div>
 			<div class="navbar-group">

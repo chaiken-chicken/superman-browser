@@ -10,7 +10,7 @@ export default function Footer() {
 							href={route('/')}
 							title={translate('footer.homeTitle')}
 						>
-							InvisiProxy
+							SUPERMAN Browser
 						</a>
 					</h3>
 					<p>{translate('footer.tagline')}</p>
@@ -94,7 +94,7 @@ export default function Footer() {
 								href={route('/github/scramjet')}
 								title={translate('footer.scramjet')}
 							>
-								Scramjet
+								SUPERMAN Engine
 							</a>
 						</li>
 						<li>
@@ -217,7 +217,7 @@ export default function Footer() {
 					<i class="fas fa-coffee" aria-hidden="true"></i>
 				</a>
 			</div>
-			<p class="copyright">InvisiProxy LTS 2020-2026</p>
+			<p class="copyright">SUPERMAN Browser 2020-2026</p>
 		</>
 	);
 }

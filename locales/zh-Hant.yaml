@@ -67,8 +67,8 @@ language:
     - Tor
     - Onion
     - 洋蔥
-    - Ultraviolet
-    - Scramjet
+    - SUPERMAN Classic Engine
+    - SUPERMAN Engine
     - Rammerhead
 
 home:
@@ -99,12 +99,12 @@ home:
   fast:
     title: SUPERMAN 快速且高度先進。
     body: >-
-      SUPERMAN 提供卓越的網頁代理效能。它擁有強大的功能集，包括 reCAPTCHA/Botguard 支援、Tor 網路、SOCKS5 代理鏈、可自訂的黑名單設定、防洩漏、隱藏歷史記錄設定，以及透過 Scramjet + Wisp（搭配 Libcurl Transport）實現的廣泛網站相容性。CroxyProxy 或 Proxium 等其他熱門服務往往只完成了一半的資源重寫工作，會洩漏請求，還存在隱私隱患。本專案還支援代理鏈等功能，讓你的流量經過多個代理轉發，進一步提升安全性和匿名性。
+      SUPERMAN 提供卓越的網頁代理效能。它擁有強大的功能集，包括 reCAPTCHA/Botguard 支援、Tor 網路、SOCKS5 代理鏈、可自訂的黑名單設定、防洩漏、隱藏歷史記錄設定，以及透過 SUPERMAN Engine + Wisp（搭配 Libcurl Transport）實現的廣泛網站相容性。CroxyProxy 或 Proxium 等其他熱門服務往往只完成了一半的資源重寫工作，會洩漏請求，還存在隱私隱患。本專案還支援代理鏈等功能，讓你的流量經過多個代理轉發，進一步提升安全性和匿名性。
 
   practical:
     title: SUPERMAN 很實用。
     body: >-
-      藉助我們的原始碼隨機化，以及 Proxy Transports、Wisp 和 Scramjet 等專案，本專案可提供無縫體驗，繞過網頁、政府和網路層面的過濾。本專案可對抗中國（GFW——防火長城）、俄羅斯等地使用的過濾器，<strong>無需下載任何軟體</strong>。這一切完全透過瀏覽器中的網站和我們的後端（自託管時則是你自己的後端）實現，讓使用者即使面對最嚴厲的審查封鎖也能繞過。無需下載任何東西，只需輸入 SUPERMAN 的域名即可；若被封鎖，可前往 SUPERMAN 官方網站獲取鏡像，然後匿名瀏覽。
+      藉助我們的原始碼隨機化，以及 Proxy Transports、Wisp 和 SUPERMAN Engine 等專案，本專案可提供無縫體驗，繞過網頁、政府和網路層面的過濾。本專案可對抗中國（GFW——防火長城）、俄羅斯等地使用的過濾器，<strong>無需下載任何軟體</strong>。這一切完全透過瀏覽器中的網站和我們的後端（自託管時則是你自己的後端）實現，讓使用者即使面對最嚴厲的審查封鎖也能繞過。無需下載任何東西，只需輸入 SUPERMAN 的域名即可；若被封鎖，可前往 SUPERMAN 官方網站獲取鏡像，然後匿名瀏覽。
 
   heroSubtitle: 免費且透明，放心使用
   designedWithPrivacy: 以隱私為核心設計<underline/>。
@@ -129,7 +129,7 @@ home:
   usage:
     title: 使用方法
     body: >-
-      前往<browse>瀏覽</browse>頁面，選擇其中一個代理！然後在搜尋框中輸入你想訪問的網站。每個網頁代理在有效性、速度和安全性方面各有不同。推薦使用 Scramjet。<br/><br/>可解鎖的網站示例：<code>https://youtube.com</code>
+      前往<browse>瀏覽</browse>頁面，選擇其中一個代理！然後在搜尋框中輸入你想訪問的網站。每個網頁代理在有效性、速度和安全性方面各有不同。推薦使用 SUPERMAN Engine。<br/><br/>可解鎖的網站示例：<code>https://youtube.com</code>
     imageAlt: 盾牌圖示
 
   apps:
@@ -303,10 +303,10 @@ footer:
   vite: Vite - 下一代前端工具鏈。
   wispurr: 使用 Golang 實現的高效能、功能豐富的 Wisp v1/v2 伺服器。
   nord: Nord Theme - 一套北極風格的藍色調配色方案。
-  scramjet: Scramjet - 一款為繞過網路審查而設計的多功能網頁代理。
+  scramjet: SUPERMAN Engine - 一款為繞過網路審查而設計的多功能網頁代理。
   wisp: Wisp - 一種低開銷、易於實現的協定，可透過單個 WebSocket 代理多個 TCP/UDP 套接字。
   wispLabel: Wisp 協定
-  proxyTransports: Proxy Transports - Scramjet 使用的傳輸介面。
+  proxyTransports: Proxy Transports - SUPERMAN Engine 使用的傳輸介面。
   merp: Merp - 高階混淆模組
   merpLabel: Merp 混淆
   githubTitle: SUPERMAN GitHub 儲存庫
@@ -391,14 +391,14 @@ faq:
     question: >-
       我遇到了類似這樣的錯誤："'cdn.example.com' cannot be reached."
     answer: >-
-      重新載入頁面。如果第一次沒有用，只需使用瀏覽器的後退按鈕，或返回 Scramjet 頁面再試一次。
+      重新載入頁面。如果第一次沒有用，只需使用瀏覽器的後退按鈕，或返回 SUPERMAN Engine 頁面再試一次。
   blank:
     question: 為什麼我的網站只載入了一部分或完全空白？
     answer: >-
       並非所有網站都受支援。這是因為網際網路極其廣闊，網站使用著各種不同的技術和內容載入方式。如果你在某個特定網站上遇到問題，請在我們的 Discord 伺服器或 GitHub 上報告。否則，可以嘗試切換我們的代理選項，看看是否有其中一個支援該網站。
   idb:
     question: >-
-      我遇到了與 IDB 資料庫相關的錯誤（Scramjet V1 問題）
+      我遇到了與 IDB 資料庫相關的錯誤（SUPERMAN Engine V1 問題）
     answer: >-
       這通常發生在我們更新專案時。只需點選瀏覽器左上角的 (i) 圖示（或鎖形圖示），然後選擇"清除網站資料"或"Cookie 和網站資料 > 管理裝置上的網站資料 > 垃圾桶圖示"。這會清除 IndexedDB 資料庫，讓你可以重新使用代理。
   discord:
@@ -420,7 +420,7 @@ faq:
     question: >-
       為什麼我所在的網站無法正常工作或出現驗證碼錯誤？
     answer: >-
-      Scramjet 支援驗證碼，但需要多次嘗試。原因是 Scramjet 往往速度太快，而驗證碼本身就很不穩定。解決方法就是不斷嘗試，直到驗證通過為止。儘量不要操作得太快。
+      SUPERMAN Engine 支援驗證碼，但需要多次嘗試。原因是 SUPERMAN Engine 往往速度太快，而驗證碼本身就很不穩定。解決方法就是不斷嘗試，直到驗證通過為止。儘量不要操作得太快。
   youtubeBlank:
     question: >-
       在任何代理網站上使用 YouTube 時，為什麼頁面無法完全載入，或者影片一片白？
@@ -474,7 +474,7 @@ privacy:
     storage: >-
       SUPERMAN 使用"Cookie"、IndexedDB、localStorage 和 sessionStorage 來維持使用者會話（詳見下文），並在你的電腦上儲存你的偏好設定。所有這些資訊都儲存在你的裝置上，SUPERMAN 不會將其用於任何分析。廣告合作伙伴可能會儲存他們自己的 Cookie，詳見"廣告"部分。
     cookies: >-
-      Cookie 是網站儲存在訪問者電腦上的一串資訊，訪問者每次返回時，瀏覽器都會將其提供給網站。SUPERMAN 使用 Cookie 來確保設定選單的可用性，以及儲存使用者偏好。不希望在電腦上儲存 Cookie 的使用者，應在使用 SUPERMAN 網站前將瀏覽器設定為拒絕 Cookie，但這樣做的缺點是，沒有 Cookie、localStorage 或 IndexedDB 的幫助，SUPERMAN 的某些功能將無法正常執行。SUPERMAN 不會出於分析目的使用任何 Cookie、IndexedDB、localStorage 或 sessionStorage 功能；只有以下功能依賴它們在本地儲存持久資料：Scramjet（快取被代理的資源、會話狀態等）、標籤頁、書籤、自動補全（經代理）、設定選單：標籤頁偽裝、圖示預設、傳輸方式選項、搜尋引擎、主題、語言、視窗類型、Tor 路由、地區切換、隱藏廣告、隱藏歷史記錄、阻止視窗洩漏、阻止 WebRTC 以及指紋隨機化。
+      Cookie 是網站儲存在訪問者電腦上的一串資訊，訪問者每次返回時，瀏覽器都會將其提供給網站。SUPERMAN 使用 Cookie 來確保設定選單的可用性，以及儲存使用者偏好。不希望在電腦上儲存 Cookie 的使用者，應在使用 SUPERMAN 網站前將瀏覽器設定為拒絕 Cookie，但這樣做的缺點是，沒有 Cookie、localStorage 或 IndexedDB 的幫助，SUPERMAN 的某些功能將無法正常執行。SUPERMAN 不會出於分析目的使用任何 Cookie、IndexedDB、localStorage 或 sessionStorage 功能；只有以下功能依賴它們在本地儲存持久資料：SUPERMAN Engine（快取被代理的資源、會話狀態等）、標籤頁、書籤、自動補全（經代理）、設定選單：標籤頁偽裝、圖示預設、傳輸方式選項、搜尋引擎、主題、語言、視窗類型、Tor 路由、地區切換、隱藏廣告、隱藏歷史記錄、阻止視窗洩漏、阻止 WebRTC 以及指紋隨機化。
     serviceWorkers: >-
       此外，SUPERMAN 使用 Service Worker 作為我們網頁代理的技術。它可以攔截相應的網路流量等，是本專案的核心功能。
     consent: >-
@@ -605,7 +605,7 @@ docs:
     requirements: >-
       請同時確保你使用的是 <code>Node 26.x</code>。<code>git</code> 和 <code>curl</code> 是必需的依賴：
     builtIn: >-
-      本網站在本地託管，內建了 <scramjet>Scramjet</scramjet>、<wisp>Wisp</wisp>、<merp>Merp 混淆</merp>、<epoxy>EpoxyTransport</epoxy> 和 <libcurl>LibcurlTransport</libcurl>。
+      本網站在本地託管，內建了 <scramjet>SUPERMAN Engine</scramjet>、<wisp>Wisp</wisp>、<merp>Merp 混淆</merp>、<epoxy>EpoxyTransport</epoxy> 和 <libcurl>LibcurlTransport</libcurl>。
     caddyWarning: >-
       出於安全考慮，使用反向代理託管時請務必使用 NGINX，而不是 Caddy。這是因為 wispurr 使用了迴環地址。如果使用 Caddy，請禁用此功能或調整 Caddy 的預設配置。
     resources: '自託管資源：'
@@ -654,7 +654,7 @@ docs:
       minifyScripts: >-
         在啟動伺服器時自動壓縮相應的靜態資源。
       randomizeIdentifiers: >-
-        為 Ultraviolet 啟用實驗性的代理全域性變數隨機化。這可以降低 UV 被基於擴充套件的過濾器檢測到的機率。
+        為 SUPERMAN Classic Engine 啟用實驗性的代理全域性變數隨機化。這可以降低 UV 被基於擴充套件的過濾器檢測到的機率。
       production: >-
         使用預先配置好的生產環境方案進行伺服器託管。自動設定快取控制和原始碼重寫。
       disguiseFiles: >-
@@ -687,16 +687,16 @@ docs:
       如果你在使用 Ubuntu 的 VPS 上託管 SUPERMAN BROWSER，可以考慮將 Tor 掛載到 systemctl，便於生產環境管理。一旦 Tor 在 Linux 或 Windows 上執行起來，當使用者在設定選單中啟用後，它就會自動與 SUPERMAN BROWSER 配合使用。
     customWisp: 使用者也可以在代理偏好設定中設定自己的 Wisp 伺服器。
     customProxy: >-
-      如果你想使用自訂的 HTTP/HTTPS/SOCKS5 代理來轉發 Scramjet 的流量，這是在伺服器端的 <code>./src/server/wisp.ts</code> 中處理的。
+      如果你想使用自訂的 HTTP/HTTPS/SOCKS5 代理來轉發 SUPERMAN Engine 的流量，這是在伺服器端的 <code>./src/server/wisp.ts</code> 中處理的。
   proxy:
     title: 代理配置
     body: >-
       調整透過設定選單分配的網頁代理相關設定的主要位置是 <code>./views/assets/js/register-sw.js</code>。在這裡，你可以修改透過 Cookie 在本地設定的傳輸方式選項、替換 SOCKS5 代理、更改洋蔥路由埠、指定黑名單等。
     options:
       stockSW: >-
-        Ultraviolet 的預設 Service Worker 配置檔案。不過 SUPERMAN 會自動啟用廣告攔截，因此預設不使用此檔案。
+        SUPERMAN Classic Engine 的預設 Service Worker 配置檔案。不過 SUPERMAN 會自動啟用廣告攔截，因此預設不使用此檔案。
       blacklistSW: >-
-        Ultraviolet 的修改版本，支援域名黑名單和廣告攔截。
+        SUPERMAN Classic Engine 的修改版本，支援域名黑名單和廣告攔截。
       proxyUrl: >-
         指定一個 SOCKS5/HTTPS/HTTP 協定的 URL，預設為 Tor 的預設代理埠。可以替換為任何有效的埠或 SOCKS5 代理。這是透過 epoxy 和 libcurl 的 proxy 選項實現的。
       transports: >-
@@ -705,7 +705,7 @@ docs:
       defaultMode: >-
         指定全域性使用的預設傳輸方式（使用者仍可透過設定選單切換）
       ScramjetController: >-
-        透過這個建構函式，你可以動態替換 Scramjet 使用的字首並指定檔案位置。注意，更改檔名時可能需要編輯 <code>./views/scram/scramjet.sw</code>。
+        透過這個建構函式，你可以動態替換 SUPERMAN Engine 使用的字首並指定檔案位置。注意，更改檔名時可能需要編輯 <code>./views/scram/scramjet.sw</code>。
   navigation:
     title: 客戶端導航配置
     body: >-
@@ -737,7 +737,7 @@ docs:
       pages: 用於存放網站的 HTML。
       assets: 用於存放各種 CSS、JS、圖片和 JSON 檔案。
       scram: >-
-        包含本地的 Scramjet 實現。部分檔案會被 node 模組覆蓋。
+        包含本地的 SUPERMAN Engine 實現。部分檔案會被 node 模組覆蓋。
       uv: 包含 UV 的實現。
     scripts: 位於 <code>/views/assets/js/</code> 的指令碼
     files:
@@ -748,7 +748,7 @@ docs:
         管理設定選單、位址列功能以及其他附加功能。
       loader: 用作 DOM 偽裝的資源。
       registerSw: >-
-        建立並管理讓 Ultraviolet 執行的 Service Worker，同時使用 bare transport。
+        建立並管理讓 SUPERMAN Classic Engine 執行的 Service Worker，同時使用 bare transport。
   future:
     title: 未來計劃
     body: <todo>這裡</todo>是 SUPERMAN BROWSER 的待辦事項清單（並不詳盡）。
@@ -772,7 +772,7 @@ docs:
     subdomain: >-
       <code>a.example.com</code> 根據網站維護者的需要，用於 Libreddit 或 Invidious 等其他實例。
     local: >-
-      如前所述，SUPERMAN 開箱即用地在本地託管 Scramjet 和 Ultraviolet，無需外部實例。
+      如前所述，SUPERMAN 開箱即用地在本地託管 SUPERMAN Engine 和 SUPERMAN Classic Engine，無需外部實例。
   domain:
     title: 域名步驟
     porkbun: >-
@@ -811,7 +811,7 @@ docs:
     captcha: >-
       為什麼我所在的網站無法正常工作或出現驗證碼錯誤？
     captchaBody: >-
-      遺憾的是，目前所有代理對驗證碼的支援都不太穩定，主要由 Scramjet 支援。因此，有些網站可能在任何代理上都無法使用。
+      遺憾的是，目前所有代理對驗證碼的支援都不太穩定，主要由 SUPERMAN Engine 支援。因此，有些網站可能在任何代理上都無法使用。
     badGateway: 我遇到了 502 錯誤，該怎麼辦？
     badGatewayBody: >-
       出現這種情況時，你可以切換網站來解決錯誤，或者稍等片刻。有時清除快取也會有幫助。
@@ -830,7 +830,7 @@ docs:
     secrets: >-
       這個決定還有其他原因，所以有些事情我會保密，除非有人覺得這些資訊還不夠。好朋友們都知道，這幾個月來我一直為這個決定倍感壓力。另外，我快畢業了，這也是促使我做出這個決定的一大原因。
     future: >-
-      將來我可能會繼續/迴歸，或者只把它保留在 GitHub 上。我寫下這些，是因為即使到現在我仍然在懷疑這個決定。但目前我建議去看看其他代理網站，比如 Incognito（Duce 更新非常頻繁，他也是 Ultraviolet 的作者/開發者，所以多支援他吧） :yayy_hopi:
+      將來我可能會繼續/迴歸，或者只把它保留在 GitHub 上。我寫下這些，是因為即使到現在我仍然在懷疑這個決定。但目前我建議去看看其他代理網站，比如 Incognito（Duce 更新非常頻繁，他也是 SUPERMAN Classic Engine 的作者/開發者，所以多支援他吧） :yayy_hopi:
     patreon: >-
       也去看看他的 Patreon 吧！現有的 HU 贊助者下個月將不會被扣費，HU 的 Patreon 將會歸檔，所以請轉到 Duce 的 Patreon，讓他能為 Incognito 購買更多域名。
     signoff: 滿懷愛意 <3
@@ -841,7 +841,7 @@ docs:
     website: 檢視官方網站了解更多詳情和致謝。
     sources: '網頁代理來源：'
     sourcesBody: >-
-      本專案目前使用遵循 Wisp 協定的 Scramjet 和 Ultraviolet 作為網頁代理。Bare-Mux 用於切換配合 Wisp 使用的傳輸系統。內建的傳輸系統有 EpoxyTransport 和 libcurl-transport。
+      本專案目前使用遵循 Wisp 協定的 SUPERMAN Engine 和 SUPERMAN Classic Engine 作為網頁代理。Bare-Mux 用於切換配合 Wisp 使用的傳輸系統。內建的傳輸系統有 EpoxyTransport 和 libcurl-transport。
     wispProtocol: Wisp 協定
     merp: Merp（混淆模組）
     dnsBlocklists: hagezi DNS 遮蔽列表
@@ -913,9 +913,9 @@ error:
   home: 返回首頁
 
 scramjet:
-  pageTitle: Scramjet 代理
+  pageTitle: SUPERMAN Engine 代理
   description: >-
-    Mercury Workshop 推出的全新創新代理，採用 Service Worker 和先進的重寫技術等，並支援驗證碼。Scramjet 專注於在 YouTube、now.gg、Spotify、CoolMathGames 以及各種 .io 網站上的速度！
+    Mercury Workshop 推出的全新創新代理，採用 Service Worker 和先進的重寫技術等，並支援驗證碼。SUPERMAN Engine 專注於在 YouTube、now.gg、Spotify、CoolMathGames 以及各種 .io 網站上的速度！
   searchPlaceholder: 在此輸入 URL 或搜尋內容！
   search: 搜尋
 
@@ -934,14 +934,14 @@ frame:
   noBookmarks: 還沒有書籤。點選位址列中的星形圖示即可儲存當前頁面。
 
 scramjetError:
-  title: Scramjet 網路錯誤
+  title: SUPERMAN Engine 網路錯誤
   failed: '載入失敗：'
   reload: 重新載入頁面可能會解決你的問題。
   refresh: 重新整理頁面
   copy: 複製
   try: '嘗試：'
   tips:
-    reload: 重新載入頁面；這是 Scramjet 的已知問題
+    reload: 重新載入頁面；這是 SUPERMAN Engine 的已知問題
     idb: >-
       如果出現 IDB 資料庫錯誤，請點選位址列中的鎖形圖示，選擇"網站設定"或"網站資料"，然後點選"清除網站資料"來清除你的網站資料
     cache: >-
@@ -951,7 +951,7 @@ scramjetError:
       如果是網站維護或更新，請等待問題解決。
     censored: 確認伺服器沒有被你的網路審查（WebRTC 等）
     faq: 檢視常見問題頁面，瞭解特定網站的相容性問題。
-    github: 在 <github>Scramjet GitHub</github> 上排查該錯誤。
+    github: 在 <github>SUPERMAN Engine GitHub</github> 上排查該錯誤。
     engine: 在設定面板中嘗試其他代理傳輸方式或地區。
   network: 重新整理網路服務
   love: 用愛製作

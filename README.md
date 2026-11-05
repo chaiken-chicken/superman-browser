@@ -1,9 +1,9 @@
 # SUPERMAN Browser
 
 Click the green code button when you scroll up then go to codespaces and create 
-It's gonna take a bit then paste this into the terminal 
+It-s gonna take a bit then paste this into the terminal 
 pnpm run fresh-install && pnpm start
-then go to ports and port 8080 and right click the port 8080 and press port visibility and public. Then hover over the link and press the copy local address button and put it into the SUPERMAN discord.
+then go to ports and port 8080 and right click the port 8080 and press port visibility and public. Then hover over the port and press the copy local address button and put it into the SUPERMAN discord.
 Put the link in the SUPERMAN PROXY tab so other people can use it
 
 ## License, source and attribution

@@ -126,7 +126,7 @@ export function Head() {
 		<>
 			<title>
 				{titled(
-					`InvisiProxy LTS | ${translate('scramjet.pageTitle')}`,
+					`SUPERMAN Browser | ${translate('scramjet.pageTitle')}`,
 					translate('header.browse.label')
 				)}
 			</title>

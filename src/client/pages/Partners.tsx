@@ -81,7 +81,7 @@ export function Head() {
 		<>
 			<title>
 				{titled(
-					`InvisiProxy LTS | ${translate('header.partners.label')}`,
+					`SUPERMAN Browser | ${translate('header.partners.label')}`,
 					translate('header.partners.label')
 				)}
 			</title>

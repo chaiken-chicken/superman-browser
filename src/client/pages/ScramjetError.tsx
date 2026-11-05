@@ -72,13 +72,13 @@ export default function ScramjetError() {
 				</div>
 				<code data-plain>
 					<i>
-						{`${translate('scramjetError.network')} | Scramjet `}
+						{`${translate('scramjetError.network')} | SUPERMAN Engine `}
 						<span id="scramjetVersion"></span>
 					</i>
 				</code>
 				<p class="footer-spacing">
 					<i>
-						{`InvisiProxy LTS © 2020-2026 | ${translate('scramjetError.love')} `}
+						{`SUPERMAN Browser © 2020-2026 | ${translate('scramjetError.love')} `}
 					</i>
 					<i class="nf nf-fa-heart"></i>
 				</p>
@@ -91,7 +91,7 @@ export default function ScramjetError() {
 export function Head() {
 	return (
 		<>
-			<title>{titled('Scramjet', translate('error.pageTitle'))}</title>
+			<title>{titled('SUPERMAN Engine', translate('error.pageTitle'))}</title>
 			<meta itemprop="http-status" content="404" />
 			<HeadContent />
 			<link

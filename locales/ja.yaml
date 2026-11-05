@@ -64,8 +64,8 @@ language:
     - Tor
     - Onion
     - オニオン
-    - Ultraviolet
-    - Scramjet
+    - SUPERMAN Classic Engine
+    - SUPERMAN Engine
     - Rammerhead
 
 home:
@@ -300,7 +300,7 @@ footer:
   vite: Vite - 次世代のフロントエンドツール。
   wispurr: Golangで実装された、高性能で機能重視のWisp v1/v2サーバー。
   nord: Nord Theme - 北極のような、青みがかったカラーパレット。
-  scramjet: Scramjet - インターネット検閲を回避するために設計された多機能なWebプロキシ。
+  scramjet: SUPERMAN Engine - インターネット検閲を回避するために設計された多機能なWebプロキシ。
   wisp: Wisp - 1つのWebSocket上で複数のTCP/UDPソケットをプロキシするための、低オーバーヘッドで実装しやすいプロトコル。
   wispLabel: Wispプロトコル
   proxyTransports: Proxy Transports - Scramjetが使用するトランスポートインターフェース。
@@ -395,7 +395,7 @@ faq:
       すべてのWebサイトがサポートされているわけではありません。Webは広大で、コンテンツの読み込み方法や技術がさまざまであるため、これは避けられません。特定のサイトで問題がある場合は、DiscordサーバーまたはGitHubでご報告ください。それ以外の場合は、プロキシのオプションを切り替えて、サイトに対応しているものがあるか試してみてください。
   idb:
     question: >-
-      IDBデータベースに関するエラーが表示されます（Scramjet V1の問題）
+      IDBデータベースに関するエラーが表示されます（SUPERMAN Engine V1の問題）
     answer: >-
       これは通常、プロジェクトのアップデート時に発生します。ブラウザの左上にある (i) アイコン（または鍵マーク）をクリックし、「サイトデータを削除」または「Cookieとサイトデータ > デバイス上のサイトデータを管理 > ゴミ箱アイコン」を選択してください。これでIndexedDBデータベースが消去され、再びプロキシを使用できるようになります。
   discord:
@@ -471,7 +471,7 @@ privacy:
     storage: >-
       SUPERMANは、ユーザーセッションの維持（詳細は後述）と設定の保存のために、「Cookie」、IndexedDB、localStorage、sessionStorageをお使いのコンピューター上で使用します。これらの情報はすべてお使いのデバイス上に保存され、SUPERMANが分析に使用することは一切ありません。広告パートナーは、「広告」で説明するとおり、独自のCookieを保存することがあります。
     cookies: >-
-      Cookieとは、Webサイトが訪問者のコンピューターに保存する情報の文字列で、訪問者が再訪するたびにブラウザからWebサイトへ送信されます。SUPERMANは、設定メニューの使いやすさの確保と、ユーザー設定の保存のためにCookieを使用します。コンピューターにCookieを保存したくない場合は、SUPERMANのWebサイトを利用する前に、ブラウザでCookieを拒否するよう設定してください。ただし、Cookie、localStorage、IndexedDBがないとSUPERMANの一部の機能は正常に動作しません。SUPERMANが分析目的でCookie、IndexedDB、localStorage、sessionStorageに何かを保存することはありません。永続的なデータをローカルに保存するために利用しているのは次の機能のみです：Scramjet（プロキシしたアセットのキャッシュ、セッション状態など）、タブ、ブックマーク、自動補完（プロキシ経由）、設定メニュー：タブ隠蔽、アイコンのプリセット、トランスポートのオプション、検索エンジン、テーマ、言語、ウィンドウの種類、Torルーティング、リージョンの切り替え、広告を隠す、履歴を隠す、ウィンドウ漏洩のブロック、WebRTCのブロック、フィンガープリントのランダム化。
+      Cookieとは、Webサイトが訪問者のコンピューターに保存する情報の文字列で、訪問者が再訪するたびにブラウザからWebサイトへ送信されます。SUPERMANは、設定メニューの使いやすさの確保と、ユーザー設定の保存のためにCookieを使用します。コンピューターにCookieを保存したくない場合は、SUPERMANのWebサイトを利用する前に、ブラウザでCookieを拒否するよう設定してください。ただし、Cookie、localStorage、IndexedDBがないとSUPERMANの一部の機能は正常に動作しません。SUPERMANが分析目的でCookie、IndexedDB、localStorage、sessionStorageに何かを保存することはありません。永続的なデータをローカルに保存するために利用しているのは次の機能のみです：SUPERMAN Engine（プロキシしたアセットのキャッシュ、セッション状態など）、タブ、ブックマーク、自動補完（プロキシ経由）、設定メニュー：タブ隠蔽、アイコンのプリセット、トランスポートのオプション、検索エンジン、テーマ、言語、ウィンドウの種類、Torルーティング、リージョンの切り替え、広告を隠す、履歴を隠す、ウィンドウ漏洩のブロック、WebRTCのブロック、フィンガープリントのランダム化。
     serviceWorkers: >-
       さらに、SUPERMANはWebプロキシの技術としてService Workerを使用しています。これによりネットワーク通信などを傍受できるようになり、プロジェクトの中核となる機能です。
     consent: >-
@@ -602,7 +602,7 @@ docs:
     requirements: >-
       <code>Node 26.x</code>を使用していることも確認してください。<code>git</code>と<code>curl</code>は必須の依存関係です：
     builtIn: >-
-      このWebサイトは、<scramjet>Scramjet</scramjet>、<wisp>Wisp</wisp>、<merp>Merp 難読化</merp>、<epoxy>EpoxyTransport</epoxy>、<libcurl>LibcurlTransport</libcurl>を内蔵してローカルでホストされています。
+      このWebサイトは、<scramjet>SUPERMAN Engine</scramjet>、<wisp>Wisp</wisp>、<merp>Merp 難読化</merp>、<epoxy>EpoxyTransport</epoxy>、<libcurl>LibcurlTransport</libcurl>を内蔵してローカルでホストされています。
     caddyWarning: >-
       セキュリティ上の理由から、リバースプロキシでホストする場合はCaddyではなくNGINXを使用してください。wispurrがループバックを使用するためです。Caddyを使う場合は、この機能を無効にするか、Caddyのデフォルト設定を調整してください。
     resources: 'セルフホスト用のリソース：'
@@ -910,7 +910,7 @@ error:
   home: ホームページに戻る
 
 scramjet:
-  pageTitle: Scramjet プロキシ
+  pageTitle: SUPERMAN Engine プロキシ
   description: >-
     Mercury Workshopによる、非常に革新的な新しいプロキシです。サービスワーカーや高度な書き換え技術などを使用し、CAPTCHAにも対応しています。Scramjetは、YouTube、now.gg、Spotify、CoolMathGames、さまざまな.ioサイトでの速度を重視しています！
   searchPlaceholder: URLを入力するか、検索キーワードを入力してください！
@@ -931,7 +931,7 @@ frame:
   noBookmarks: ブックマークはまだありません。アドレスバーの星をクリックすると、表示中のページを保存できます。
 
 scramjetError:
-  title: Scramjet ネットワークエラー
+  title: SUPERMAN Engine ネットワークエラー
   failed: '読み込みに失敗しました：'
   reload: ページを再読み込みすると問題が解決する場合があります。
   refresh: ページを更新
