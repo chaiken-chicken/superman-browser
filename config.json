@@ -9,7 +9,7 @@
 	"usingSEO": false,
 	"verbose": true,
 	"port": 8080,
-	"showSplash": true,
+	"showSplash": false,
 	"geoLanguage": false,
 	"singleLanguage": false,
 	"language": "en",
