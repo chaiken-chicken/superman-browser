@@ -1,0 +1,44 @@
+{
+  "short_name": "SUPERMAN",
+  "name": "SUPERMAN BROWSER",
+  "icons": [
+    {
+      "src": "/assets/img/superman-mark-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/superman-mark-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#101028",
+  "background_color": "#080b19",
+  "description": "SUPERMAN Browser \u2014 community web browser",
+  "short_description": "Free web proxy service for bypassing filters and accessing blocked sites.",
+  "keywords": [
+    "proxy",
+    "web proxy",
+    "unblock websites",
+    "free web proxy",
+    "proxy list",
+    "online proxy",
+    "proxy server",
+    "proxy YouTube",
+    "bypass web filters",
+    "SUPERMAN",
+    "fast proxy",
+    "secure proxy",
+    "anonymous browsing",
+    "internet freedom"
+  ],
+  "related_applications": [
+    {
+      "platform": "github",
+      "url": "https://github.com/delmonkino-commits/superman-browser"
+    }
+  ]
+}

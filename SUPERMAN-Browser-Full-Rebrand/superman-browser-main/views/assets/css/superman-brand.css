@@ -1,0 +1,69 @@
+/* SUPERMAN site rebrand. CSS-only custom navigation pictograms; preserves behavior. */
+:root { --superman-purple:#a879ff;--superman-cyan:#3ddcf8;--superman-navy:#0c1026; }
+/* Hero and logo receive the custom mark; maintain upstream page layout. */
+a:hover {text-decoration-color:var(--superman-cyan)}
+.fa,.fas,.far,.fa-solid,.fa-regular{transition:color .2s ease;}
+:where(nav,header,.navbar,.menu,.sidebar) .fa,
+:where(nav,header,.navbar,.menu,.sidebar) .fas{color:var(--superman-purple)}
+
+.fa-house::before,.fa-home::before,.fa-house-chimney::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/home.svg') center / contain no-repeat;mask:url('/assets/icons/superman/home.svg') center / contain no-repeat;}
+
+.fa-globe::before,.fa-earth-americas::before,.fa-earth-europe::before,.fa-world::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/globe.svg') center / contain no-repeat;mask:url('/assets/icons/superman/globe.svg') center / contain no-repeat;}
+
+.fa-magnifying-glass::before,.fa-search::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/search.svg') center / contain no-repeat;mask:url('/assets/icons/superman/search.svg') center / contain no-repeat;}
+
+.fa-gamepad::before,.fa-puzzle-piece::before,.fa-dice::before,.fa-chess-knight::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/gamepad.svg') center / contain no-repeat;mask:url('/assets/icons/superman/gamepad.svg') center / contain no-repeat;}
+
+.fa-gear::before,.fa-gears::before,.fa-cog::before,.fa-cogs::before,.fa-sliders::before,.fa-wrench::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/settings.svg') center / contain no-repeat;mask:url('/assets/icons/superman/settings.svg') center / contain no-repeat;}
+
+.fa-th::before,.fa-th-large::before,.fa-table-cells::before,.fa-grip::before,.fa-grid::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/apps.svg') center / contain no-repeat;mask:url('/assets/icons/superman/apps.svg') center / contain no-repeat;}
+
+.fa-info-circle::before,.fa-circle-info::before,.fa-info::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/info.svg') center / contain no-repeat;mask:url('/assets/icons/superman/info.svg') center / contain no-repeat;}
+
+.fa-shield::before,.fa-shield-halved::before,.fa-shield-alt::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/shield.svg') center / contain no-repeat;mask:url('/assets/icons/superman/shield.svg') center / contain no-repeat;}
+
+.fa-user::before,.fa-user-circle::before,.fa-circle-user::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/user.svg') center / contain no-repeat;mask:url('/assets/icons/superman/user.svg') center / contain no-repeat;}
+
+.fa-users::before,.fa-user-group::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/users.svg') center / contain no-repeat;mask:url('/assets/icons/superman/users.svg') center / contain no-repeat;}
+
+.fa-star::before,.fa-award::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/star.svg') center / contain no-repeat;mask:url('/assets/icons/superman/star.svg') center / contain no-repeat;}
+
+.fa-heart::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/heart.svg') center / contain no-repeat;mask:url('/assets/icons/superman/heart.svg') center / contain no-repeat;}
+
+.fa-bars::before,.fa-list::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/menu.svg') center / contain no-repeat;mask:url('/assets/icons/superman/menu.svg') center / contain no-repeat;}
+
+.fa-question::before,.fa-question-circle::before,.fa-circle-question::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/question.svg') center / contain no-repeat;mask:url('/assets/icons/superman/question.svg') center / contain no-repeat;}
+
+.fa-arrow-right::before,.fa-chevron-right::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/arrow-right.svg') center / contain no-repeat;mask:url('/assets/icons/superman/arrow-right.svg') center / contain no-repeat;}
+
+.fa-arrow-left::before,.fa-chevron-left::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/arrow-left.svg') center / contain no-repeat;mask:url('/assets/icons/superman/arrow-left.svg') center / contain no-repeat;}
+
+.fa-external-link::before,.fa-external-link-alt::before,.fa-up-right-from-square::before,.fa-arrow-up-right-from-square::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/external-link.svg') center / contain no-repeat;mask:url('/assets/icons/superman/external-link.svg') center / contain no-repeat;}
+
+.fa-lock::before,.fa-key::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/lock.svg') center / contain no-repeat;mask:url('/assets/icons/superman/lock.svg') center / contain no-repeat;}
+
+.fa-cloud::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/cloud.svg') center / contain no-repeat;mask:url('/assets/icons/superman/cloud.svg') center / contain no-repeat;}
+
+.fa-download::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/download.svg') center / contain no-repeat;mask:url('/assets/icons/superman/download.svg') center / contain no-repeat;}
+
+.fa-upload::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/upload.svg') center / contain no-repeat;mask:url('/assets/icons/superman/upload.svg') center / contain no-repeat;}
+
+.fa-bell::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/bell.svg') center / contain no-repeat;mask:url('/assets/icons/superman/bell.svg') center / contain no-repeat;}
+
+.fa-eye::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/eye.svg') center / contain no-repeat;mask:url('/assets/icons/superman/eye.svg') center / contain no-repeat;}
+
+.fa-book::before,.fa-book-open::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/book.svg') center / contain no-repeat;mask:url('/assets/icons/superman/book.svg') center / contain no-repeat;}
+
+.fa-link::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/link.svg') center / contain no-repeat;mask:url('/assets/icons/superman/link.svg') center / contain no-repeat;}
+
+.fa-clock::before,.fa-history::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/clock.svg') center / contain no-repeat;mask:url('/assets/icons/superman/clock.svg') center / contain no-repeat;}
+
+.fa-sync::before,.fa-sync-alt::before,.fa-refresh::before,.fa-rotate::before,.fa-rotate-right::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/refresh.svg') center / contain no-repeat;mask:url('/assets/icons/superman/refresh.svg') center / contain no-repeat;}
+
+.fa-play::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/play.svg') center / contain no-repeat;mask:url('/assets/icons/superman/play.svg') center / contain no-repeat;}
+
+.fa-pause::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/pause.svg') center / contain no-repeat;mask:url('/assets/icons/superman/pause.svg') center / contain no-repeat;}
+
+.fa-bolt::before,.fa-rocket::before,.fa-wand-magic-sparkles::before,.fa-fire::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/sparkles.svg') center / contain no-repeat;mask:url('/assets/icons/superman/sparkles.svg') center / contain no-repeat;}
+
+.fa-times::before,.fa-xmark::before,.fa-close::before,.fa-x::before {content:"" !important; display:inline-block;vertical-align:-.12em;width:1.06em;height:1.06em;background-color:currentColor;-webkit-mask: url('/assets/icons/superman/close.svg') center / contain no-repeat;mask:url('/assets/icons/superman/close.svg') center / contain no-repeat;}
